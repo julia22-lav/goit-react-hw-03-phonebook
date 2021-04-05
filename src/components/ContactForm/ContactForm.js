@@ -54,7 +54,7 @@ class ContactForm extends Component {
             name="number"
             id={telId}
             value={this.state.number}
-            pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
+            // pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
             onChange={this.onChange}
             className={s.inputForm}
           />
